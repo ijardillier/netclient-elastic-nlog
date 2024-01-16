@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>   
+    <AssemblyName>NetCoreClient.Elk</AssemblyName>
+    <RootNamespace>NetCoreClient.Elk</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="5.0.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.2.0" />
+    <PackageReference Include="Elastic.CommonSchema.NLog" Version="1.5.3" />
+    <PackageReference Include="Microsoft.AspNetCore.HealthChecks" Version="1.0.0" />
+    <PackageReference Include="NLog.Extensions.Hosting" Version="1.7.4" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.4" />
+    <PackageReference Include="NLog.Targets.ElasticSearch" Version="7.6.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReference Include="NLog" Version="4.7.11" />  
+    <PackageReference Include="prometheus-net" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
